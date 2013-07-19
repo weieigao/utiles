@@ -33,7 +33,7 @@ fi
 # Use socat to set git proxy
 if ! (which socat > /dev/null); then
   sudo apt-get update
-  sudo apt-get install socat
+  sudo apt-get install -y socat
 fi
 
 (
